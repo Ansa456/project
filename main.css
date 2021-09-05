@@ -1,0 +1,78 @@
+h2{
+    text-align: center;
+    margin-top: 10px;
+    color:black;
+}
+
+
+
+form{
+    box-sizing: border-box;
+    margin-inline: 500px;
+    background-color:cornflowerblue;
+    width: 300px;
+    border-radius: 30px;
+    height: 440px;
+    padding: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 50px auto 50px;
+    
+    
+}
+body{
+    display: block;
+    margin: 8px;
+}
+
+input,textarea{
+    box-sizing: border-box;
+    width: 250px;
+    height: 30px;
+    padding-left: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+    
+
+label{
+    color:black;
+    font: 16px Arial, Helvetica, sans-serif;
+    padding: 15px 0px 5px;
+    
+    
+}
+textarea{
+    height: 50px;
+    
+}
+
+#buttons-row{
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
+button#send{
+    background-color: mediumvioletred;
+    color:white;
+    padding: 1px 15px;
+    margin: 17px;
+    font: 17px Arial;
+    border-radius: 7px;
+
+    
+}
+button#reset{
+    background-color: orangered;
+    color:white;
+    margin: 17px;
+    font: 17px Arial;
+    padding: 1px 15px;
+    border-radius: 7px;
+}
+div#buttons-row{
+    color: black;
+    font: 16px Arial, Helvetica, sans-serif;
+}
